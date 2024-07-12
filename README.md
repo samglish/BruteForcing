@@ -47,4 +47,4 @@ laws and ethics anyway - and tell themselves they are one of the good ones.)
 Example:  hydra -l user -P passlist.txt ftp://192.168.0.1
 ```
 
-`Example :` hydra -l user -P passlist.txt ftp://192.168.0.1
+`Example : hydra -l user -P passlist.txt ftp://192.168.0.1`
