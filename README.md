@@ -1,2 +1,2 @@
 # BruteForcing
-cryptanalysis method to find a password or key
+Brute force attack is a method used in cryptanalysis to find a password or key. It involves testing, one by one, all possible combinations. This method is generally considered the simplest conceivable.
