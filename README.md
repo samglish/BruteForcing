@@ -9,11 +9,10 @@ Brute force attack is a method used in cryptanalysis to find a password or key. 
 <hr>
 
 ### Hydra
-Hydra is a brute-forcing tool that helps penetration testers and ethical hackers crack the passwords of network services.
+* Hydra is a brute-forcing tool that helps penetration testers and ethical hackers crack the passwords of network services.
+* Hydra can perform rapid dictionary attacks against more than 50 protocols. This includes telnet, FTP, HTTP, HTTPS, SMB, databases, and several other services.
 
-Hydra can perform rapid dictionary attacks against more than 50 protocols. This includes telnet, FTP, HTTP, HTTPS, SMB, databases, and several other services.
-
-### Launch hydrq
+### Launch hydra
 
 ```bash
 hydra
