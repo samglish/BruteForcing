@@ -9,4 +9,4 @@ Brute force attack is a method used in cryptanalysis to find a password or key. 
 <hr>
 
 ### Hydra
-Hydra 
+Hydra is a brute-forcing tool that helps penetration testers and ethical hackers crack the passwords of network services.
