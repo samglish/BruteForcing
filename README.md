@@ -51,3 +51,8 @@ Example:  hydra -l user -P passlist.txt ftp://192.168.0.1
 
 ## protocols supported.
 <img src="forcebruteP.png" width="80%">
+
+# let's try
+```bash
+hydra -l root -x 1:9:aA1 192.168.133.129 ssh
+```
