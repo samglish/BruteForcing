@@ -69,3 +69,7 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 16:59:
 [DATA] max 16 tasks per 1 server, overall 16 tasks, 242234 login tries (l:1/p:242234), ~15140 tries per task
 [DATA] attacking ssh://192.168.133.129:22/
 ```
+## Brute forcing
+we will create two files containing usernames and passwords.
+
+```bash
