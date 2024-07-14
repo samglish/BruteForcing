@@ -56,3 +56,6 @@ Example:  hydra -l user -P passlist.txt ftp://192.168.0.1
 ```bash
 hydra -l root -x 1:9:aA1 192.168.133.129 ssh
 ```
+```bash
+hydra -V -l root -x 1:9:aA1 192.168.133.129 ssh
+```
