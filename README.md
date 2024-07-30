@@ -102,6 +102,3 @@ Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2024-07-14 17:35:
 [ATTEMPT] target 192.168.133.129 - login "glish" - pass "qwerty12" - 16 of 16 [child 15] (0/0)
 |
 ```
-
-dsfsdsfsf
-Samglui
